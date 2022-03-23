@@ -260,4 +260,6 @@ textarea {
     page-break-after: avoid;
   }
 }
-
+.serf {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
