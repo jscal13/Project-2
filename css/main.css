@@ -71,7 +71,7 @@ video {
 
 fieldset {
   border: 0;
-  margin: 0;
+  margin: 400px;
   padding: 0;
 }
 
@@ -113,7 +113,7 @@ textarea {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
-  margin: -1px;
+  margin: 400 px;
   overflow: hidden;
   padding: 0;
   position: absolute;
@@ -132,7 +132,7 @@ textarea {
 .sr-only.focusable:focus {
   clip: auto;
   height: auto;
-  margin: 0;
+  margin: 400;
   overflow: visible;
   position: static;
   white-space: inherit;
@@ -196,8 +196,8 @@ textarea {
   *,
   *::before,
   *::after {
-    background: #fff !important;
-    color: #000 !important;
+    background: rgb(31, 26, 26) !important;
+    color: rgb(216, 24, 24) !important;
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
@@ -259,7 +259,4 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-.serif {
-  font-family: 'PT Serif', serif;
 }
